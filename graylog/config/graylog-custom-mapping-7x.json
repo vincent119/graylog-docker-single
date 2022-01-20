@@ -1,0 +1,20 @@
+{
+  "template": "graylog_*",
+  "mappings": {
+    "properties": {
+      "http_method": {
+        "type": "keyword"
+      },
+      "http_response_code": {
+        "type": "long"
+      },
+      "ingest_time": {
+        "type": "date",
+        "format": "strict_date_time"
+      },
+      "took_ms": {
+        "type": "long"
+      }
+    }
+  }
+}
